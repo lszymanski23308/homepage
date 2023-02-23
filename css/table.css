@@ -1,0 +1,36 @@
+.table {
+    font-family: "Lato", sans-serif;
+    border-collapse: collapse;
+    margin: 80px auto;
+}
+.main__tableContainer {
+    overflow-x: auto;
+}
+.table__caption {
+    caption-side: top;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.table__header {
+    background-color: #847CBF;
+    color: white;
+    font-weight: normal;
+}
+.table__cell--header {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.link {
+    text-decoration: none;
+}
+.table__link {
+    text-decoration: none;
+}
+.tableRow:nth-child(even) {
+    background-color: #eee;
+}
+.tableRow:hover {
+    background: #9c9b9b;
+}

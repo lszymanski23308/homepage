@@ -1,0 +1,23 @@
+.navigation {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    max-width: 100%;
+}
+.navigation__list {
+    list-style: none;
+    background-color: #e0dededa;
+    border-radius: 20px;
+    border: 2px solid #847CBF;
+    width:fit-content;
+    padding:10px;
+}
+.navigation__link {
+    text-decoration: none;
+    color: teal;
+}
+.navigation__item {
+    max-width:fit-content
+}
+.navigation__link:hover {
+    background-color: rgba(173, 238, 238, 0.911);
+}

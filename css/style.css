@@ -1,0 +1,80 @@
+.html {
+    box-sizing: border-box;
+}
+
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.header {
+    max-width: auto;
+    color: #0d6a7bfa;
+    background-color: #e0dededa;
+    text-align: center;
+    border: 2px solid #847CBF;
+    font-size: 50px;
+    border-radius: 20px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 80px;
+}
+
+.main__image {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.body {
+    max-width: 80%;
+    align-content: center;
+    color: #000000;
+    background-color: #aaa7a7d2;
+    margin: 0 auto;
+}
+
+.light {
+    background-color: #fff;
+}
+
+.footer {
+    text-align: center;
+    border: solid;
+    border-color: #847CBF;
+    background-color: #e0dededa;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px;
+    line-height: 25px;
+    max-width: fit-content;
+    margin: auto;
+}
+
+.container {
+    text-align: right;
+}
+
+.container__button {
+    background-color: #e0dededa;
+    border: 5px #847CBF;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.top {
+    text-align: center;
+    color: #847CBF;
+    margin: 50px;
+}
+
+.top__button {
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 2px solid #847CBF;
+    padding: 5px;
+}

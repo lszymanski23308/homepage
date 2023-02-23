@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" >
+</head>
+    <body class="body">
+        <div class="container">
+             <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                <a href="#trocheosobie" class="navigation__link">Troche o sobie</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#czymsiezajmuje" class="navigation__link">Czym się Zajmuję</a>
+                </li>
+                <li class="navigation__item">
+                 <a href="#ofertalanieri" class="navigation__link">Oferta Lanieri</a>   
+                </li>
+                <li class="navigation__item">
+                    <a href="#hobby" class="navigation__link">Hobby i Zainteresowania</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#kontakt" class="navigation__link">Kontakt</a>
+                </li>
+               </ul>
+            </nav>
+        <div class="container">
+            <button class="container__button">Jasny motyw</button>
+        </div>
+        <header>
+            <h1 id="backtotop" class="header">Łukasz z rodziną</h1>
+        </header>
+
+        <main class="main">
+            <div class="main__image">
+                <img width="500" height="300" src="images/Rodzina.jpg"
+                    alt="Ja z Żoną i dwiema córeczkami w ZOO - Wrocław">
+            </div>
+            <article class="article">
+                <h2 id="trocheosobie" class="article__header">Trochę o sobie</h2>
+                <em>Cześć.</em> Miło mi było dołączyć do tak wyrozumiałej społeczności na
+                <span class="article__text--bolder">Slacku.</span><br>
+                Tata dwóch wspaniałych córeczek z którymi niewiele się widzi ze względu na pracę.<br>
+                Szczęśliwy mąż.<br>
+                Pracuje jako przedstawiciel handlowy w branży odzieżowej.<br>
+                <b>Dziękuje społeczności, która wiele już mi pomogła i pewnie wielokrotnie jeszcze pomoże
+                    <em>prawda?</em></b><br>
+                <b>Ze swojej strony mogę obiecać, że jak już będę pisał płynnie to również pomogę.</b>
+            </article>
+            </main>
+        <div class="article__image"><img width="600" height="300" src="images/salon.jpg" alt="Miejsce pracy Łukasza"></div>
+            <article class="article">
+                <h2 id="czymsiezajmuje" class="article__header">Czym się zajmuję</h2>
+                <p>
+                <strong>Lanieri</strong> nazwa producenta, którego dystrybucją się
+                zajmuję nie jest przypadkowa w języku <em>włoskim</em> oznacza wełniany.<br>
+                Nazwa nie jest przypadkowa, ponieważ<span class="article__text--leaning">
+                    <i>przędza</i></span>
+                do wyrobu naszych produktów pochodzi z Włoch.<br>
+                Zajmuję się branżą odzieżową, która przez <i>wiele</i> lat super sobie radziła,natomiast po
+                przyjściu
+                pandemii<br>
+                i ogólnej sytuacji geopolitycznej nie tylko u nas,ale i na świecie branża ta przeżywa ciężkie
+                chwile.<br>
+                Teraz może o tym jaki produkt produkuje <strong>Lanieri.</strong></p>
+            </article>
+        <div id="ofertalanieri" class="main__tableContainer"></div>
+            <table class="table">
+                    <caption class="table__caption"><strong>Oferta Lanieri
+                            <a class="link" href="images/Sweter1.jpg" title="Bordowy szpic"
+                                download="images/Sweter1.jpg">Pokaż
+                                zdjęcie przykładowego modelu swetra</a>,
+                            <a class="table__link" rel="noreferrer noopener" target="_blank" href="https://lanieri.pl/"
+                                title="Strona producenta swetrów i polo">Strona producenta
+                                Lanieri (otwiera się w nowej karcie).
+                            </a></strong></caption>
+                <thead>
+                    <tr class="tableRow">
+                        <th class="table__header table__cell--header" scope="col">Produkt</th>
+                        <th class="table__header table__cell--header" scope="col">Swetry męskie cieńkie</th>
+                        <th class="table__header table__cell--header" scope="col">Swetry męskie grube</th>
+                        <th class="table__header table__cell--header" scope="col">Koszulki Polo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="tableRow">
+                        <th class="table__header table__cell--header" scope="row">Model</th>
+                        <td class="table__cell--header">Szpice, Półokrągłe, Troyery, Kardigany</td>
+                        <td class="table__cell--header">Półokrągłe, Blezery, Kardigany</td>
+                        <td class="table__cell--header">Kołnierzyk button down, Kolnierzyk klasyczny</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="table__header table__cell--header" scope="row">Skład surowców </th>
+                        <td class="table__cell--header">50% wełna merynos/ 50%akryl,
+                            50%bawełna/ 50%akryl</td>
+                        <td class="table__cell--header">80%wełna merynos/ 20% akryl</td>
+                        <td class="table__cell--header">100% bawełna</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="tableRow">
+                        <th class="table__header table__cell--header" scope="row">Ceny od</th>
+                        <td class="table__cell--header">179zł</td>
+                        <td class="table__cell--header">279zł</td>
+                        <td class="table__cell--header">159zł</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <section class="article">
+            <h3 id="hobby" class="article__header">Hobby i zainteresowania</h3>
+            <p> Interesuję się <i>kryptowalutami i technologią blockchain.</i><br>
+                Książki o tematyce ekonomii, inwestycji i rozwoju osobistym to przez ostatnie lata tematy, które
+                mnie wciągnęły.<br>
+                Od dnia w którym wykupilem kurs u Krzyśka programowanie staje się moim Hobby.
+                W wolnej chwili lubię też aktywnie spędzać czas z rodziną rower,basen i oczywiscie place zabaw.</p>
+        </section>
+        <div class="top">
+            <a class="top__button" href="#backtotop">wróć do nagłówka strony</a>
+        </div>
+        <footer id="kontakt" class="footer"><strong>Kontakt:</strong>
+            <a href="mailto:lszymanski23308@gmail.com">📨 lszymanski23308@gmail.com</a><br>
+            <a href="tel:+48534977229">☎ tel:534977229</a>
+        </footer>
+</body>

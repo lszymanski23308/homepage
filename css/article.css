@@ -1,0 +1,28 @@
+.article {
+    color: rgba(1, 4, 29, 0.959);
+    background-color: #e0dededa;
+    text-align: center;
+    border: 2px solid #847CBF;
+    padding: 10px 10px;
+    max-width: fit-content;
+    border-radius: 20px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+}
+.article__header {
+    text-align: center;
+    color: teal;
+    font-size: 30px;
+    margin: 20px;
+    font-style: italic;
+}
+.article__image {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.article__text--bolder {
+    color: rgba(83, 16, 53, 0.842);
+}
