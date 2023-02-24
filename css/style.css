@@ -77,4 +77,5 @@
     border-radius: 20px;
     border: 2px solid #847CBF;
     padding: 5px;
+    max-width: 100%;
 }
