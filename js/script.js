@@ -1,11 +1,23 @@
-console.log("Cześć Ten kod jest juz w repozytorium Git.");
+{
+    const welcome = () => {
+        console.log("Cześć Ten kod jest juz w repozytorium Git.");
+    }
 
-let button = document.querySelector(".container__button");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".container__button");
+    welcome();
 
-button.addEventListener("click", () => {
-    body.classList.toggle("light");
+    const toggleBackground = () => {
+        const body = document.querySelector(".body");
+        const themeName = document.querySelector(".container__button");
+        body.classList.toggle("light");
+        themeName.innerText = body.classList.contains("light") ? "Ciemny motyw" : "Jasny motyw";
+    }
 
-    themeName.innerText = body.classList.contains("light") ? "Ciemny motyw" : "Jasny motyw";
-})
+
+    const init = () => {
+        const button = document.querySelector(".container__button");
+        button.addEventListener("click", toggleBackground)
+    }
+
+    init ();
+
+}
